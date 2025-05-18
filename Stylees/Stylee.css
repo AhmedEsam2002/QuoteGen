@@ -1,0 +1,56 @@
+/* Global Font Styles */
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Quote Text Styles */
+.quote-text {
+  font-family: "Playfair Display", serif;
+  font-size: 2rem;
+  font-weight: 600;
+  font-style: italic;
+  line-height: 1.4;
+  letter-spacing: 0.2px;
+  color: #333;
+}
+
+/* Author Styles */
+.quote-author {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #666;
+  letter-spacing: 0.5px;
+}
+
+/* Button Styles */
+.quote-button {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+
+.quote-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Small Text */
+small {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.3px;
+}
+
+/* Social Icons */
+.share-icons a:hover .fa-facebook {
+  color: #1877f2;
+}
+.share-icons a:hover .fa-instagram {
+  color: #c13584;
+}
+.share-icons a:hover .fa-twitter {
+  color: #1da1f2;
+}
